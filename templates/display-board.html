@@ -1,0 +1,49 @@
+{% extends 'base.html'  %}
+{% block content %}
+
+<section id="boggle-id">
+    <table class="board">
+        {% for row in board %}
+            <tr>
+            {% for cell in row %}
+                <td> {{ cell }} </td>
+            {% endfor %}
+            </tr>
+        {% endfor %}
+    </table>
+
+    <p>
+        No of Plays :  <b>{{ no_plays }} plays</b>
+        High Score: <b>{{ highscore }}</b> 
+    </p>
+        
+    <p>
+        Score : <b class="score">0</b>
+        Time Left : <b class="timer"> </b>
+    </p>
+
+    <form id="word-form">
+
+        <label for="word">Guess a word :  </label>
+        <input type="text" id="word" name="word">
+        <br><br>
+        <button id="btn">Submit</button>
+    </form>
+
+
+    <p class="msg"> 
+        <!-- show msg to the user from app.js -->
+    </p>
+
+    <ul class="word-list">
+        <!-- display words found -->
+    </ul>
+
+</section>
+
+{% endblock %}
+
+
+
+
+

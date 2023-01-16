@@ -1,0 +1,67 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: rgb(47, 68, 107);
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 4px 4px 6px
+
+}
+
+table{
+    width: 300px;
+    height: 300px;
+}
+
+table, td{
+    border: 2px rgb(22, 57, 215) solid;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+td{
+    font-size: 1.5rem;
+}
+
+section{
+    margin-top: 50px;
+}
+
+form{
+    font-style: normal;
+    font-size: large;
+    font-weight: bold;
+    color: darkblue;
+    margin-top: 50px;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width : 300px;
+    height: 30px;
+    color: blue;
+    background-color: rgb(245, 250, 251);
+    text-align: center;
+    font-size: 20px;
+}
+
+p{
+    font-size: medium;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+b {
+    color: black;
+}
+
+ul{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
